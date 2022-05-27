@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod `stat -f %Op olleh` hello
+chmod --reference=hello olleh
